@@ -5,6 +5,8 @@
 [wait time=200]
 [freeimage layer="base"]
 
+[bg storage=画像0]
+
 「僕はいつも眠い」[l][r]
 タロウ（モノローグ）：[r]
 「...あと五分。」[l][r]
@@ -35,13 +37,6 @@
 [link target=*tag_drink] →エナジードリンクを飲む [endlink][r]
 [s]
 
-*tag_water
-[cm]
-[bg storage=画像3]
-
-*tag_drink
-[cm]
-[bg storage=画像4]
 
 *tag_responce
 [cm]
@@ -59,6 +54,36 @@
 「いつもは平気でおいていくのに…。」[l][r]
 アカリ：「単語テストだよ！」[l][r]
 「タロウ、夢の中でテスト受けるつもり？」[l][r]
+
+[link target=*tag_go] →アカリに引っ張られて登校する [endlink][r]
+[link target=*tag_talk] →夢の中で見たことを話す [endlink][r]
+[s]
+
+
+*tag_water
+[cm]
+[bg storage=画像3]
+エンディング1:日常[l][r]
+タロウ：「冷たっ！」[l][r]
+「でも、これでシャキッとした…と思う。」[l][r]
+（アカリと一緒に登校する。）[l][r]
+（テストはなんとか乗り切るが、授業中も常に上の空な状態）[l][r]
+「今日も平凡な一日だったなぁ。」[l][r]
+「いつも眠いけど…まあ、これが僕の日常だ。」[l][r]
+【END：】
+
+
+*tag_drink
+[cm]
+[bg storage=画像4]
+
+*tag_go
+[cm]
+[bg storage=画像5]
+
+*tag_talk
+[cm]
+[bg storage=画像6]
 
 ここまで編集済み。
 
